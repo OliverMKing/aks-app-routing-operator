@@ -7,4 +7,5 @@ option go_package = "github.com/Azure/aks-app-routing-operator/proto/example/v1"
 message Example {
     string name = 1;
     int32 id = 2;
+    string region = 3;
 }
